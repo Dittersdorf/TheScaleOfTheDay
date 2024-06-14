@@ -39,10 +39,19 @@ function displayStatistics(stats) {
     }
 }
 
+function updatePageViews() {
+    let views = localStorage.getItem('pageViews') || 0;
+    views++;
+    localStorage.setItem('pageViews', views);
+    document.getElementById('total-views').textContent = views;
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     const scaleOfTheDay = getRandomScale();
     document.getElementById('scale').textContent = scaleOfTheDay;
 
     const stats = updateStatistics(scaleOfTheDay);
     displayStatistics(stats);
+
+    updatePageViews();
 });
