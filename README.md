@@ -1,2 +1,2 @@
 # TheScaleOfTheDay
-Each day another Scale
+Each day (visit) another Scale
