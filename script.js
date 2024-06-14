@@ -1,14 +1,14 @@
 const scales = [
-    "C Major", "C Minor", "C# Major", "C# Minor",
-    "D Major", "D Minor", "D# Major", "D# Minor",
+    "C Major", "C Minor", "Db Major", "Db Minor",
+    "D Major", "D Minor", "Eb Major", "Eb Minor",
     "E Major", "E Minor", "F Major", "F Minor",
-    "F# Major", "F# Minor", "G Major", "G Minor",
-    "G# Major", "G# Minor", "A Major", "A Minor",
-    "A# Major", "A# Minor", "B Major", "B Minor",
-    "C Minor harm", "C# Minor harm", "D Minor harm",
-    "D# Minor harm", "E Minor harm", "F Minor harm", 
-    "F# Minor harm", "G Minor harm", "G# Minor harm", 
-    "A# Minor harm", "B Minor harm",
+    "Gb Major", "Gb Minor", "G Major", "G Minor",
+    "Ab Major", "Ab Minor", "A Major", "A Minor",
+    "Bb Major", "Bb Minor", "B Major", "B Minor",
+    "C Minor harm", "Db Minor harm", "D Minor harm",
+    "Eb Minor harm", "E Minor harm", "F Minor harm", 
+    "Gb Minor harm", "G Minor harm", "Ab Minor harm", 
+    "Bb Minor harm", "B Minor harm",
 ];
 
 function getRandomScale() {
