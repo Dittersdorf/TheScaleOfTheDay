@@ -4,7 +4,11 @@ const scales = [
     "E Major", "E Minor", "F Major", "F Minor",
     "F# Major", "F# Minor", "G Major", "G Minor",
     "G# Major", "G# Minor", "A Major", "A Minor",
-    "A# Major", "A# Minor", "B Major", "B Minor"
+    "A# Major", "A# Minor", "B Major", "B Minor",
+    "C Minor harm", "C# Minor harm", "D Minor harm",
+    "D# Minor harm", "E Minor harm", "F Minor harm", 
+    "F# Minor harm", "G Minor harm", "G# Minor harm", 
+    "A# Minor harm", "B Minor harm",
 ];
 
 function getRandomScale() {
